@@ -53,11 +53,13 @@ WebApp.on('accountMsg.loaded', function(data) {
 				var result = Util.getJsonData(data),
 					status = result.status;
 
-				if (status != CONSTANT.AJAX_SUCCESS) {
+				if (status == CONSTANT.AJAX_SUCCESS) {
 					headerText.innerHTML = '设置用户信息';
 					window.location.href = '#/personal-msg/' + accountName;
 				}
 			});
+			headerText.innerHTML = '设置用户信息';
+			window.location.href = '#/personal-msg/' + accountName;
 
 		},
 

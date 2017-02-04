@@ -64,6 +64,8 @@ WebApp.on('register.loaded', function() {
 
 			});
 
+			headerText.innerHTML = '设置帐号信息';
+			window.location.href = '#/account-msg/' + $$('#phone-number')[0].value.trim();
 		},
 
 		phoneInputHandler: function() {

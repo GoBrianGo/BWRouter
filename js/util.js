@@ -1,4 +1,4 @@
-(function(window, CONSTANT, undefined) {
+	(function(window, CONSTANT, undefined) {
 	var Util = {
 		removeDialog: function(shelter) {
 			shelter.addClass('fadeOut');

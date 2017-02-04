@@ -1,0 +1,149 @@
+.icon-mobile {
+	background-image: url('../icon/mobile.png');
+}
+.icon-verification {
+	background-image: url('../icon/verification.png');
+}
+.icon-birth {
+	background-image: url('../icon/birth.png');
+	margin-top: -5px;
+}
+.icon-female {
+	background-image: url('../icon/female.png');
+}
+.icon-female-active {
+	background-image: url('../icon/female-active.png');
+}
+.icon-male {
+	background-image: url('../icon/male.png');
+}
+.icon-male-active {
+	background-image: url('../icon/male-active.png');
+}
+.icon-password {
+	background-image: url('../icon/password.png');
+}
+.icon-account {
+	background-image: url('../icon/account.png');
+}
+.icon-mail {
+	background-image: url('../icon/mail.png');
+}
+.icon-back {
+	background-image: url('../icon/back.png');
+}
+.icon-delete {
+	background-image: url('../icon/delete.png');
+}
+.icon-available-name {
+	background-image: url('../icon/available-name@2x.png');
+}
+.icon-unavailable-name {
+	background-image: url('../icon/unavailable-name.png');
+}
+.icon-password-visible {
+	background-image: url('../icon/password-visible.png');	
+}
+.icon-password-invisible {
+	background-image: url('../icon/password-invisible.png');	
+}
+[data-dpr = '2'] .icon-mobile {
+	background-image: url('../icon/mobile@2x.png');
+}
+[data-dpr = '2'] .icon-verification {
+	background-image: url('../icon/verification@2x.png');
+}
+[data-dpr = '2'] .icon-birth {
+	background-image: url('../icon/birth@2x.png');
+}
+[data-dpr = '2'] .icon-female {
+	background-image: url('../icon/female@2x.png');
+}
+[data-dpr = '2'] .icon-female-active {
+	background-image: url('../icon/female-active@2x.png');
+}
+[data-dpr = '2'] .icon-male {
+	background-image: url('../icon/male@2x.png');
+}
+[data-dpr = '2'] .icon-male-active {
+	background-image: url('../icon/male-active@2x.png');
+}
+[data-dpr = '2'] .icon-password {
+	background-image: url('../icon/password@2x.png');
+}
+[data-dpr = '2'] .icon-account {
+	background-image: url('../icon/account@2x.png');
+}
+[data-dpr = '2'] .icon-mail {
+	background-image: url('../icon/mail@2x.png');
+}
+[data-dpr = '2'] .icon-back {
+	background-image: url('../icon/back@2x.png');
+}
+[data-dpr = '2']  .icon-delete {
+	background-image: url('../icon/delete@2x.png');
+}
+[data-dpr = '2'] .icon-available-name {
+	background-image: url('../icon/available-name@2x.png');
+}
+[data-dpr = '2'] .icon-unavailable-name {
+	background-image: url('../icon/unavailable-name@2x.png');
+}
+[data-dpr = '2']  .icon-password-visible {
+	background-image: url('../icon/password-visible@2x.png');	
+}
+[data-dpr = '3'] .custom-icon {
+	width: 30px;
+	height: 30px;
+}
+[data-dpr = '3']  .icon-password-invisible {
+	background-image: url('../icon/password-invisible@2x.png');	
+}
+[data-dpr = '3'] .icon-mobile {
+	background-image: url('../icon/mobile@3x.png');
+}
+[data-dpr = '3'] .icon-verification {
+	background-image: url('../icon/verification@3x.png');
+}
+[data-dpr = '3'] .icon-birth {
+	background-image: url('../icon/birth@3x.png');
+}
+[data-dpr = '3'] .icon-female {
+	background-image: url('../icon/female@3x.png');
+}
+[data-dpr = '3'] .icon-female-active {
+	background-image: url('../icon/female-active@3x.png');
+}
+[data-dpr = '3'] .icon-male {
+	background-image: url('../icon/male@3x.png');
+}
+[data-dpr = '3'] .icon-male-active {
+	background-image: url('../icon/male-active@3x.png');
+}
+[data-dpr = '3'] .icon-password {
+	background-image: url('../icon/password@3x.png');
+}
+[data-dpr = '3'] .icon-account {
+	background-image: url('../icon/account@3x.png');
+}
+[data-dpr = '3'] .icon-mail {
+	background-image: url('../icon/mail@3x.png');
+}
+[data-dpr = '3'] .icon-back {
+	background-image: url('../icon/back@3x.png');
+}
+[data-dpr = '3']  .icon-delete {
+	background-image: url('../icon/delete@3x.png');
+}
+[data-dpr = '3'] .icon-available-name {
+	background-image: url('../icon/available-name@3x.png');
+}
+[data-dpr = '3'] .icon-unavailable-name {
+	background-image: url('../icon/unavailable-name@3x.png');
+}
+[data-dpr = '3']  .icon-password-visible {
+	background-image: url('../icon/password-visible@3x.png');	
+}
+[data-dpr = '3']  .icon-password-invisible {
+	background-image: url('../icon/password-invisible@3x.png');	
+}

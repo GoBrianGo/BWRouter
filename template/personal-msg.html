@@ -1,0 +1,58 @@
+<div id = "header">
+	<div id = "back-to-account-page" class = "header-left-part">
+		<i class = "custom-icon icon-back"></i>
+	</div>
+	<div id = "skip-to-login" class = "header-right-part">
+		跳过
+	</div>		
+	<div class = "header-middle-part">注册WorkPlus</div>
+</div>
+<div class = "msg-box">
+	<div class = "msg-box-icon-part">
+		<i class = "custom-icon icon-account"></i>
+	</div>
+	<div class = "msg-box-hint-part">
+		<i class = "custom-icon"></i>
+	</div>	
+	<div class = "msg-box-input-part">
+		<input type = "text" id = "real-name" placeholder = "真实姓名">
+	</div>
+</div>
+<div class = "msg-box msg-birth-gender-box">
+	<div class = "msg-box-icon-part">
+		<i class = "custom-icon icon-birth"></i>
+	</div>
+	<div class = "msg-box-gender-part">
+		<div class = "gender-icon" id = "gender-male">
+			<input type = "radio" name = "gender" class = "gender-radio" value = "male" checked>
+			<div class = "gender-icon-wrapper">
+				<i class = "custom-icon icon-male"></i>
+				<label>男</label>				
+			</div>
+		</div>
+		<div class = "gender-icon" id = "gender-female">
+			<input type = "radio" name = "gender" class = "gender-radio" value = "female">
+			<div class = "gender-icon-wrapper">
+				<i class = "custom-icon icon-female"></i>
+				<label>女</label>					
+			</div>
+		</div>						
+	</div>
+	<div class = "msg-box-birth-part">
+		<input type = "date" id = "birth" placeholder = "你的生日">
+	</div>
+</div>
+<div class = "msg-box">
+	<div class = "msg-box-icon-part">
+		<i class = "custom-icon icon-mail"></i>
+	</div>
+	<div class = "msg-box-hint-part">
+		<i class = "custom-icon" id = "mail-hint-icon"></i>
+	</div>
+	<div class = "msg-box-input-part">
+		<input type = "text" id = "account-mail" placeholder = "请输入您常用的邮箱">
+	</div>
+</div>
+<button id = "submit-personal-msg" class = "custom-btn inactive next-step-btn active">下一步</button>
+<p class = "text-content error-hint" id = "personal-msg-hint"></p>
+<p class = "text-content">个人信息仅做内部调查使用，不对外公布。</p>

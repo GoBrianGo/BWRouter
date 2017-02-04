@@ -1,0 +1,369 @@
+body {
+	margin: 0;
+	font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+}
+input[type=date] {
+	background-color: transparent;
+}
+#header {
+	height: 50px;
+	line-height: 50px;
+	background-color: #279AFC;
+	color: #fff;
+	text-align: center;
+}
+.header-right-part {
+	float: right;
+	width: 15%;
+}
+.header-middle-part {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.msg-box {
+	width: 90%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: solid 1px #ccc;
+	margin-left: 5%;
+	margin-top: 10px;
+}
+.first-box {
+	margin-top: 20px;
+}
+.input-box {
+	height: 100%;
+}
+.custom-icon {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+	vertical-align: middle;
+}
+.msg-box input {
+	width: 100%;
+	height: 70%;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; 
+}
+.mobile-icon-box {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 80px;
+}
+.mobile-icon-box span {
+	color: #7AB4E6;
+    font-size: 20px;
+    font-family: arial;
+    vertical-align: bottom;
+}
+.mobile-input-box {
+	margin-left: 80px;
+	margin-right: 40px;
+}
+.mobile-input-box input {
+    margin-top: 7px;
+}
+.mobile-icon-box::after {
+	position: absolute;
+    display: block;
+    content: '';
+    width: 1px;
+    height: 40%;
+    background: rgba(167, 157, 157, 0.55);
+    top: 30%;
+    right: 1px;
+}
+.verfication-code-box {
+	border: none;
+}
+.verfication-code-btn {
+	float: right;
+	width: 40%;
+	height: 40px;
+	margin-top: 10px;
+}
+.verfication-code-content-box {
+	margin-right: 43%;
+	border-bottom: solid 1px #ccc;
+}
+.verfication-code-icon-box,
+.msg-box-icon-part,
+.header-left-part {
+	float: left;
+	width: 25px;
+}
+.header-left-part {
+	width: 15%;
+}
+.verfication-code-input-box,
+.msg-box-input-part {
+	margin-left: 30px;
+	margin-right: 35px;
+}
+.msg-box-hint-part {
+	float: right;
+	width: 35px;
+	text-align: right;
+}
+.msg-delete-box {
+	position: relative;
+}
+.msg-delete-box::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;	
+}
+.msg-box-gender-part {
+	float: right;
+	width: 130px;
+}
+.msg-box-birth-part {
+	margin-left: 30px;
+	margin-right: 130px;
+}
+button {
+	font-size: 13px;
+}
+.custom-btn {
+	border: none;
+	color: #fff;
+	border-radius: 4px;
+	background-color: #A7D7FD;
+}
+.custom-btn:focus {
+	outline: none;
+}
+.active {
+	background-color: #279AFC;
+}
+.register-btn,
+.next-step-btn {
+	width: 90%;
+	height: 50px;
+	margin: 15% 0 10px 5%;
+}
+.text-content {
+	text-align: center;
+	color: #CACBCB;
+}
+#register p {
+	margin: 8px;
+}
+.link {
+	color: #66ACE4;
+}
+.error-hint {
+	color: #D20A0A;
+	display: none;
+}
+.gender-icon {
+	position: relative;
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-left: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.msg-box-gender-part .gender-radio {
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.msg-birth-gender-box .gender-icon .custom-icon {
+	width: 11px;
+	margin-top: -6px;
+}
+.gender-icon label {
+    margin-left: -3px;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+.msg-birth-gender-box {
+	border: none;
+}
+.msg-birth-gender-box .msg-box-icon-part {
+	width: 30px;
+}
+.msg-birth-gender-box .msg-box-icon-part,
+.msg-birth-gender-box .msg-box-birth-part {
+	border-bottom: solid 1px #ccc;
+}
+.dialog-shelter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(17, 17, 17, 0.26);
+}
+.dialog {
+	position: absolute;
+    width: 80%;
+    height: 150px;
+    background: #fff;
+    border-radius: 8px;
+    margin-left: 10%;
+    margin-top: 180px;
+    text-align: center;
+}
+.dialog-content {
+    height: 100px;
+	overflow: hidden;
+    font-size: 20px;
+}
+.dialog-content p {
+	padding: 10px;
+}
+.dialog-btn {
+	border-top: solid 1px #E0D8D8;
+	font-size: 18px;
+	color: #4BA2ED;
+	line-height: 50px;
+}
+.confirm-dialog-content {
+	height: 150px;
+}
+.dialog-btn-group {
+	height: 50px;
+    border-top: solid 1px #E0D8D8;
+}
+.confirm-dialog {
+	width: 90%;
+	margin-left: 5%;
+	height: 200px;
+	color: #474849;
+}
+.confirm-dialog-content p {
+	margin: 15px 5px 0 5px;
+}
+.confirm-dialog-content p:nth-child(2){
+	font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+	padding-top: 5px;
+    padding-bottom: 3px;
+}
+.confirm-dialog-content p:nth-child(3) {
+	margin-top: 0;
+    padding: 0;
+    color: rgb(119, 119, 130);
+}
+.confirm-dialog-btn {
+    width: 50%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.dialog-close {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; 
+	border-right: solid 1px #E0D8D8;
+	border-bottom-left-radius: 8px;
+}
+.dialog-confirm {
+	border-bottom-right-radius: 8px;
+	color: #2C9CFB;
+}
+.gender-icon-wrapper {
+    border: solid 1px #E0D8D8;
+    height: 100%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.disabled {
+	background-color: #CFCFCF;
+}
+.hide {
+	display: none;
+}
+.offline-hint {
+	position: absolute;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+}
+.offline-hint label {
+	background-color: rgba(70, 55, 55, 0.85);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;	
+}
+input.gender-radio:checked + .gender-icon-wrapper {
+	border: none;
+	background-color: #FD8889;
+}
+input.gender-radio:checked + .gender-icon-wrapper > label {
+	color: #fff;
+}
+input.gender-radio:checked + .gender-icon-wrapper > .icon-female {
+	background-image: url('../icon/female-active@2x.png');
+}
+input.gender-radio:checked + .gender-icon-wrapper > .icon-male {
+	background-image: url('../icon/male-active@2x.png');
+}
+::-webkit-input-placeholder {
+	font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+	color: #C4C4C4;
+	font-weight: normal;
+	font-size: 16px;
+}
+@media screen and (min-width: 376px) {
+	#header {
+		height: 60px;
+		line-height: 60px;
+		font-size: 20px;
+	}
+	button {
+		font-size: 16px;
+	}
+/*	#app {
+		top: 60px;
+	}*/
+    .msg-box {
+		height: 60px;
+		line-height: 60px;
+    }
+    .gender-icon {
+    	margin-top: 10px;
+    }
+    .custom-btn {
+    	height: 50px;
+    }
+}
+@media screen and (min-width: 376px) {
+    .gender-icon {
+    	width: 50px;
+    	height: 50px;
+    	margin-left: 13px;
+    }
+    .gender-icon label {
+	    display: inline-block;
+	    margin-top: 2px;
+    }
+	::-webkit-input-placeholder {
+		font-size: 18px;
+	}
+}

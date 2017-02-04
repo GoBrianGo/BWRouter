@@ -56,7 +56,7 @@ WebApp.on('register.loaded', function() {
 				var result = Util.getJsonData(data),
 					status = result.status;
 
-				if (status == CONSTANT.AJAX_SUCCESS) {
+				if (status != CONSTANT.AJAX_SUCCESS) {
 					var headerText = $$('.header-middle-part')[0];
 					headerText.innerHTML = '设置帐号信息';
 					window.location.href = '#/account-msg/' + $$('#phone-number')[0].value.trim();

@@ -26,7 +26,7 @@
 //global constant setting
 (function(window, undefined) {
 	var CONSTANT = {
-		BASEPATH: 'http://172.16.1.168:3000/api/', //根路径
+		BASEPATH: 'https://172.16.1.168:3000/api/', //根路径
 		TENANT_ID: 'atwork',//租户id
 		AJAX_SUCCESS: 0, //请求成功状态码
 		CAN_REGISTER: 23103, //可用的用户名状态码

@@ -5,7 +5,7 @@ body {
 input[type=date] {
 	background-color: transparent;
 }
-i, a {
+i, a, button {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 button {

@@ -8,6 +8,9 @@ input[type=date] {
 i, a {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+button {
+	outline: none;
+}
 #header {
 	height: 50px;
 	line-height: 50px;
@@ -146,9 +149,9 @@ button {
 	border-radius: 4px;
 	background-color: #A7D7FD;
 }
-.custom-btn:focus {
+/*.custom-btn:focus {
 	outline: none;
-}
+}*/
 .active {
 	background-color: #279AFC;
 }
